@@ -26,8 +26,6 @@ Team name: The Java Squad
 What number am I thinking of? (W.N.T).
 
 W.N.T, is a web based game that generates a random number between 1 and X, then the user tries to guess the correct number. If the user guesses correctly, an alert is displayed, and the program generates a new number. It comes with a leadership board counting each correct guess in a row by each user. The game displays different messages to the user; for their personal best record and when they lose. A turn based player vs player mode is available. A random number from 1 and X is generated and each player takes turns to guess. The player who guessed right or closest to the number wins, if it's a tie the game resets.
-
-Updated project description: 
 Player vs player mode will be a network based game instead of a turn based game. For the client side, the web application will be programmed in HTML and CSS. For the backend it will be programmed in node.js using WebSockets to provide real time communication between client and server.
 
 Functional requirements:
