@@ -1,0 +1,42 @@
+body {
+    background-color: lightskyblue;
+}
+
+h1{
+    text-align: center;
+}
+
+.singlemodebtn {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 12px;
+}
+
+.twomodebtn {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 12px;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 100px 30px;
+}
+
+p{
+    text-align: center;
+}
