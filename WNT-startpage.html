@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="En">
 <head>
-<title>What Number Am I Thinking Of?</title>
+    <meta charset="UTF-8"/>
+    <title>Single player difficulty selction</title>
 </head>
-<link rel="stylesheet" href="WNTstyle.css">
+    <script src="WNTfunc.js"></script>
+    <link rel="stylesheet" href="WNTstyle.css">
 <body>
 
-<h1>What Number Am I Thinking Of? mmm</h1>
-<p>Please select mode.</p>
+   <h1>What Number Am I Thinking Of?</h1>
+   <p id="select">SELECT DIFFICULTY</p>
 
-<a href="singlemode.html">
-        <button class="button singlemodebtn">Single player</button>
-</a>
-<a href="twoplayermode.html">
-        <button class="button twomodebtn">Two players</button>
-</a>
+ <div class="input">
+  <button onclick="easy_NUM()" type="button">EASY</button>
+  <button onclick="med_NUM()" type="button">MEDIUM</button>
+  <button onclick="hard_NUM()" type="button">HARD</button>
+  <button onclick="custom_NUM()" type="button">CUSTOM</button>
+ </div>
+
 </body>
 </html>
