@@ -4,14 +4,17 @@
 <title>Single player difficulty selction</title>
 </head>
 <script src="WNTfunc.js"></script>
+<link rel="stylesheet" href="singlemode.css">
 <body>
 
 <h1>What Number Am I Thinking Of?</h1>
 <p>Select difficulty</p>
 <!-- ttgg -->
-<button onclick="easy_NUM()" type="button" id="easybutn">Easy</button>
-<button onclick="med_NUM()" type="button" id="mediumbutn">Medium</button>
-<button onclick="hard_NUM()" type="button" id="hardbutn">Hard</button>
-<button onclick="custom_NUM()" type="button" id="custombutn">Custom</button>
+<div class="levels">
+<button onclick="easy_NUM()" type="button" class="butn" id="easybutn">Easy</button>
+<button onclick="med_NUM()" type="button" class="butn" id="mediumbutn">Medium</button>
+<button onclick="hard_NUM()" type="button" class="butn" id="hardbutn">Hard</button>
+<button onclick="custom_NUM()" type="button" class="butn" id="custombutn">Custom</button>
+</div>
 </body>
 </html>
