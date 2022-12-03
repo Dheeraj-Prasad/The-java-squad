@@ -21,6 +21,7 @@ p {
     display: inline-block;
     font-size: 25px;
     border-radius: 12px;
+    align-items: center;
 }
 .difficulty{ 
     text-align: center;
