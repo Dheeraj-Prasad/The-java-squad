@@ -23,11 +23,6 @@ p {
     border-radius: 12px;
     align-items: center;
 }
-.difficulty{ 
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    transform: translate(-50%, 50%);
+.level{
+ text-align: center;
 }
