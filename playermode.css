@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(240, 49, 97);
+    
+}
+h1{
+    text-align: center;
+    text-decoration: solid;
+}
+.input{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 30px;
+    padding: auto;
+    margin: 100px 30px;
+}
+#guess{
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    -ms-transform: translate(-50%,-50%);
+    text-align: center;
+}
+
