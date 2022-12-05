@@ -1,0 +1,11 @@
+{
+  "name": "the-java-squad-main",
+  "version": "1.0.0",
+  "description": "What Number Am I thinking EECS 1012 Term Project",
+  "main": "WNTfunc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

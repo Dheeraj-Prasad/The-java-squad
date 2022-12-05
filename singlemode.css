@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(240, 49, 97) ;
+}
+h1 {
+    text-align: center;
+    text-decoration: solid;
+}
+p {
+    text-align: center;
+    text-decoration: solid;
+    font-size: 30px;
+    padding: auto;
+    margin: 100px 30px;
+}
+.butn {
+    background-color: greenyellow;
+    border: none;
+    color: black;
+    padding : 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 12px;
+    align-items: center;
+}
+.levels{
+ text-align: center;
+ margin: 0;
+ position: absolute;
+ top:40%;
+ left:50%;
+ transform: translate(-50%,50%);
+ -ms-transform: translate(-50%,-50%);
+}
