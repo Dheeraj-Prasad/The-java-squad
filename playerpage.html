@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8"/>
     <title> Number Am I Thinking Of?</title>
+    <link rel="stylesheet" href="playermode.css">
+    <script src="./WNTfunc.js"></script>
 </head>
-<link rel="stylesheet" href="playermode.css">
+
 <body>
 
 <h1>            What Number Am I Thinking Of?</h1>
@@ -18,10 +20,7 @@
          <p>Score:</p><p id="Score">0</p>
     </div>  
     <br>
-    <div>
-    <input type="button" id = "start" class="start" value = "start">  
-    
-    </div>
+   
 
 </div>
 
@@ -33,14 +32,25 @@
         <p id = "tracker"></p>
 
     </div>
-    <div class="mid">
+    <div class="start">
+        <p id="msg"> HEYYYYYYYY </p>
+        <br>
         
 
         <p>Guesses left</p>
         <br>
-        <p id="GuessesL" >5</p>
+
+        <p id="GuessesL" ></p>
         <br>
-        <p id="msg"> HEYYYYYYYY </p>
+        <div class="start">
+           
+            
+            <input type="button" value="Guess" onclick="sub()">
+         
+        
+        </div>
+        <br>
+       
     </div>
         
     
