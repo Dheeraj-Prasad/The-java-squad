@@ -6,20 +6,38 @@ h1{
     text-align: center;
     text-decoration: solid;
 }
-.input{
+
+.start{
+
+    margin-left: 750px;
+    border-radius: 50%;
+    font-size: 40px;
     text-align: center;
-    text-decoration: solid;
-    font-size: 30px;
-    padding: auto;
-    margin: 100px 30px;
 }
-#guess{
-    margin: 0;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%,50%);
-    -ms-transform: translate(-50%,-50%);
+
+.track{
+    padding-bottom: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    margin-left: 50px;
+    background-color: white;
     text-align: center;
+    float: left;
+    
+    
+}
+
+
+.mid{
+    text-align: center;
+    font-size: 34px;
+}
+
+.score{
+
+    float: left;
+    font-size: 19px;
+    
 }
 

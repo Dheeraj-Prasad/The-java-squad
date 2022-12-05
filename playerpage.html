@@ -7,23 +7,47 @@
 <link rel="stylesheet" href="playermode.css">
 <body>
 
-<h1>What Number Am I Thinking Of?</h1>
+<h1>            What Number Am I Thinking Of?</h1>
+<br>
+<br>
 
-<div id="input">
-    <form class="form">
-        <label2 for="guess" id="guess">
-           <bold>Guess a number :</bold> 
-            <input type="text" id="guess1" class="guess">
-            <input type="submit" id="subt" value="Submit" class="guessSubmit"><br><br><br><br><br>
+<div >
 
+    <div class="score">
 
-    <div class="resultParas">
-        <p>Guess Tracker: <span class="guesses"></span></p>
-        <p>Guesses Left: <span class="left"></span></p>
-        <p class="count"><h1>game counter: </h1></p>
+         <p>Score:</p><p id="Score">0</p>
+    </div>  
+    <br>
+    <div>
+    <input type="button" id = "start" class="start" value = "start">  
+    
     </div>
-</label2>
-</form>
+
 </div>
+
+<br>
+<br>
+<div>
+    <div class="track">
+        <p> Guesses</p>
+        <p id = "tracker"></p>
+
+    </div>
+    <div class="mid">
+        
+
+        <p>Guesses left</p>
+        <br>
+        <p id="GuessesL" >5</p>
+        <br>
+        <p id="msg"> HEYYYYYYYY </p>
+    </div>
+        
+    
+</div>
+
+
+
+
 </body>
 </html>
