@@ -1,5 +1,5 @@
 let guesses = 6;
-let max = 50;
+let max = 20;
 
 
 function ran(){
@@ -97,6 +97,13 @@ function sub(){
     Score.innerHTML=count;
 
     gL.innerHTML = guesses;
+
+    if(guesses < 1){
+
+       
+        window.location.href = "wnt-startpage.html";
+        alert("YOUR SCORCE IS " + count +" Congratualations");
+    }
 
 
 }
